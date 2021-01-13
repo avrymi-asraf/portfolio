@@ -123,11 +123,16 @@ font-size: 4vw;
   font-size: 16px;
   font-family: 'Kufam', cursive;
 } 
+#projects-box a:hover{
+  background: #1565c0;
+}
 
 #profile-link-box {
   flex-direction: column;
   width: 40%;
 }
+
+
 #links h2{
   font-family: 'Exo 2', sans-serif;
 }
@@ -135,4 +140,8 @@ font-size: 4vw;
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+#box-links img:hover{
+  background: #1565c0;
 }
