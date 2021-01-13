@@ -36,6 +36,100 @@ header {
   background: #1565c0;
 }
 
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: khaki;
+  border-radius: 1%;
+}
+
+#welcome-section {
+  width: 100%;
+  font-family: "Anton", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 90px;
+  letter-spacing: 0.1em;
+}
+
+
+
+
+#text-about {
+  display: block;
+  text-align: center;
+}
+
+#text-about h2 {
+  font-size: 4vw;
+  font-family: "Anton", sans-serif;
+}
+#text-about p {
+  font-size: 2vw;
+  font-family: "Kufam", cursive;
+}
+
+
+
+#projects {
+  flex-direction: column;
+  width: 100%;
+}
+#projects h2 {
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  margin: 5vw;
+}
+#projects h3 {
+  font-size: 20px;
+  font-family: "Kufam", cursive;
+  margin: 5vw;
+}
+
+#projects-box {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#projects-box a {
+  background: rgba(196, 165, 187, 0.555);
+  margin: 0.5em;
+  border-radius: 3%;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Kufam", cursive;
+}
+#projects-box a:hover {
+  background: #1565c0;
+  transition: 0.3s ease;
+}
+
+
+
+#box-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#profile-link-box {
+  flex-direction: column;
+  width: 40%;
+}
+
+#box-links img:hover {
+  background: #1565c0;
+  transition: 0.3s ease;
+}
+
+#links h2 {
+  font-family: "Exo 2", sans-serif;
+}
+
+
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
@@ -59,92 +153,4 @@ header {
   .section {
     height: 500px;
   }
-}
-
-.section {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: khaki;
-  border-radius: 1%;
-}
-
-#projects-box {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-}
-
-#welcome-section {
-  width: 100%;
-  font-family: "Anton", sans-serif;
-  color: black;
-  text-align: center;
-  font-size: 90px;
-  letter-spacing: 0.1em;
-}
-
-#text-about{
-  display: block;
-  text-align: center;
-}
-
-#text-about h2{
-font-size: 4vw;
- font-family: 'Anton', sans-serif;
-}
-#text-about p{
-  font-size: 2vw;
-  font-family: 'Kufam', cursive;
-}
-#projects {
-  flex-direction: column;
-  width: 100%;
-}
-#projects h2 {
-  font-size: 40px;
-  font-family: 'Anton', sans-serif;
-  margin: 5vw;
-}
-#projects h3 {
-  font-size: 20px;
-  font-family: 'Kufam', cursive;
-   margin: 5vw; 
-}
-
- 
-#projects-box a{
-  background: rgba(196, 165, 187, 0.555);
-  margin: 0.5em;
-  border-radius: 3%;
-  text-align: center;
-  font-size: 16px;
-  font-family: 'Kufam', cursive;
-} 
-#projects-box a:hover{
-  background: #1565c0;
-    transition: .3s ease;
-}
-
-#profile-link-box {
-  flex-direction: column;
-  width: 40%;
-}
-
-
-#links h2{
-  font-family: 'Exo 2', sans-serif;
-}
-#box-links {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-#box-links img:hover{
-  background: #1565c0;
-    transition: .3s ease;
-  
 }
