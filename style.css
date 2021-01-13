@@ -90,6 +90,16 @@ header {
   flex-direction: column;
   width: 100%;
 }
+#projects h2 {
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  margin: 5vw;
+}
+#projects h3 {
+  font-size: 20px;
+  font-family: 'Kufam', cursive;
+   margin: 5vw; 
+}
 
  
 #projects-box a{
