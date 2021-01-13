@@ -125,6 +125,7 @@ font-size: 4vw;
 } 
 #projects-box a:hover{
   background: #1565c0;
+    transition: .3s ease;
 }
 
 #profile-link-box {
@@ -144,4 +145,6 @@ font-size: 4vw;
 
 #box-links img:hover{
   background: #1565c0;
+    transition: .3s ease;
+  
 }
